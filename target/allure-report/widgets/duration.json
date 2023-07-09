@@ -1,1 +1,111 @@
-[{"uid":"cb6e1eb21f0b72bc","name":"navigateToConstructor2","time":{"duration":4630},"status":"passed","severity":"normal"},{"uid":"841bf1a1751bc82b","name":"navigateToConstructor","time":{"duration":4611},"status":"passed","severity":"normal"},{"uid":"27478a5e039f8b3f","name":"loginFromRecoveryPassPage","time":{"duration":3875},"status":"passed","severity":"normal"},{"uid":"3c4c4f44247a32e8","name":"logOut","time":{"duration":4950},"status":"passed","severity":"normal"},{"uid":"2eca543add473623","name":"loginFromMyAccount","time":{"duration":4613},"status":"passed","severity":"normal"},{"uid":"aa34d7639c582b8d","name":"loginFromMainPage","time":{"duration":6124},"status":"passed","severity":"normal"},{"uid":"8da08fa436c9df33","name":"scrollTest","time":{"duration":3772},"status":"passed","severity":"normal"},{"uid":"2c14251012dfbc2c","name":"userCanBeRegistered","time":{"duration":8023},"status":"passed","severity":"normal"},{"uid":"9df851df56b00723","name":"userCannotBeRegisteredWithShortPass","time":{"duration":4260},"status":"passed","severity":"normal"},{"uid":"ea11e9c27349619a","name":"navigateToMyAccount","time":{"duration":5008},"status":"passed","severity":"normal"},{"uid":"54c2b7919dd2c36","name":"loginFromRegisterPage","time":{"duration":3978},"status":"passed","severity":"normal"}]
+[ {
+  "uid" : "60e9c2113227ff6a",
+  "name" : "Переход по клику на «Личный кабинет»",
+  "time" : {
+    "start" : 1688941133825,
+    "stop" : 1688941140951,
+    "duration" : 7126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51d9e486eda6211b",
+  "name" : "Успешная регистрация",
+  "time" : {
+    "start" : 1688941093851,
+    "stop" : 1688941104280,
+    "duration" : 10429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f46eb70c5c0f69c3",
+  "name" : "Вход через кнопку в форме восстановления пароля",
+  "time" : {
+    "start" : 1688941165530,
+    "stop" : 1688941170533,
+    "duration" : 5003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21d3bac131324e6c",
+  "name" : "Переходы к разделам: «Булки», «Соусы», «Начинки»",
+  "time" : {
+    "start" : 1688941140954,
+    "stop" : 1688941147688,
+    "duration" : 6734
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c88442ab387362a",
+  "name" : "Ошибка при регистрации с некорректным паролем",
+  "time" : {
+    "start" : 1688941104381,
+    "stop" : 1688941110537,
+    "duration" : 6156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d2412d42ad7d6aa",
+  "name" : "Переход по клику на логотип Stellar Burgers",
+  "time" : {
+    "start" : 1688941126917,
+    "stop" : 1688941133823,
+    "duration" : 6906
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6b249f20fcb45da",
+  "name" : "Переход по клику на «Конструктор»",
+  "time" : {
+    "start" : 1688941118764,
+    "stop" : 1688941126913,
+    "duration" : 8149
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5bc29e3968718d9d",
+  "name" : "Вход через кнопку «Личный кабинет»",
+  "time" : {
+    "start" : 1688941153346,
+    "stop" : 1688941161308,
+    "duration" : 7962
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e15894bca02ce35",
+  "name" : "Выход по кнопке «Выйти» в личном кабинете",
+  "time" : {
+    "start" : 1688941110545,
+    "stop" : 1688941118762,
+    "duration" : 8217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43c3d2083066c5d8",
+  "name" : "Вход через кнопку в форме регистрации",
+  "time" : {
+    "start" : 1688941161310,
+    "stop" : 1688941165527,
+    "duration" : 4217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a8d616cd0942846",
+  "name" : "Вход по кнопке «Войти в аккаунт» на главной",
+  "time" : {
+    "start" : 1688941147691,
+    "stop" : 1688941153344,
+    "duration" : 5653
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

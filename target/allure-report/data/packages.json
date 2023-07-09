@@ -1,1 +1,168 @@
-{"uid":"83edc06c07f9ae9e47eb6dd1b683e4e2","children":[{"name":"profilepage.ProfilePageTest","children":[{"name":"navigateToConstructor2","uid":"cb6e1eb21f0b72bc","parentUid":"840f55edf9d15273913f35d2f5249ffd","status":"passed","time":{"duration":4630},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"navigateToConstructor","uid":"841bf1a1751bc82b","parentUid":"840f55edf9d15273913f35d2f5249ffd","status":"passed","time":{"duration":4611},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"logOut","uid":"3c4c4f44247a32e8","parentUid":"840f55edf9d15273913f35d2f5249ffd","status":"passed","time":{"duration":4950},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"profilepage.ProfilePageTest"},{"name":"loginpage.LoginPageTest","children":[{"name":"loginFromRecoveryPassPage","uid":"27478a5e039f8b3f","parentUid":"8f8ae4f80b3980a3f0b38a226445bf78","status":"passed","time":{"duration":3875},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"loginFromMyAccount","uid":"2eca543add473623","parentUid":"8f8ae4f80b3980a3f0b38a226445bf78","status":"passed","time":{"duration":4613},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"loginFromMainPage","uid":"aa34d7639c582b8d","parentUid":"8f8ae4f80b3980a3f0b38a226445bf78","status":"passed","time":{"duration":6124},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"loginFromRegisterPage","uid":"54c2b7919dd2c36","parentUid":"8f8ae4f80b3980a3f0b38a226445bf78","status":"passed","time":{"duration":3978},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"loginpage.LoginPageTest"},{"name":"mainpage.MainPageTest","children":[{"name":"scrollTest","uid":"8da08fa436c9df33","parentUid":"58c66b43895a1e1e26ff39a8c3486c85","status":"passed","time":{"duration":3772},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"navigateToMyAccount","uid":"ea11e9c27349619a","parentUid":"58c66b43895a1e1e26ff39a8c3486c85","status":"passed","time":{"duration":5008},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"mainpage.MainPageTest"},{"name":"registerpage","children":[{"name":"RegisterPagePositiveTest","children":[{"name":"userCanBeRegistered","uid":"2c14251012dfbc2c","parentUid":"81d8ad00f73638c6b9c449035dff7485","status":"passed","time":{"duration":8023},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"81d8ad00f73638c6b9c449035dff7485"},{"name":"RegisterPageNegativeTest","children":[{"name":"userCannotBeRegisteredWithShortPass","uid":"9df851df56b00723","parentUid":"481ff6a92cace1e7531de561e5a373fb","status":"passed","time":{"duration":4260},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"481ff6a92cace1e7531de561e5a373fb"}],"uid":"cf483089fad5913a1ada5dedce003658"}],"name":"packages"}
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "ru.praktikum.burgers.pages",
+    "children" : [ {
+      "name" : "register",
+      "children" : [ {
+        "name" : "userCanBeRegistered",
+        "uid" : "51d9e486eda6211b",
+        "parentUid" : "4cda233fe09785e6f74f8efdc950bf32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941093851,
+          "stop" : 1688941104280,
+          "duration" : 10429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "userCannotBeRegisteredWithShortPass",
+        "uid" : "c88442ab387362a",
+        "parentUid" : "4cda233fe09785e6f74f8efdc950bf32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941104381,
+          "stop" : 1688941110537,
+          "duration" : 6156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4cda233fe09785e6f74f8efdc950bf32"
+    }, {
+      "name" : "profile",
+      "children" : [ {
+        "name" : "logOut",
+        "uid" : "7e15894bca02ce35",
+        "parentUid" : "3d889b44db6349affbf23df9d4d2e6b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941110545,
+          "stop" : 1688941118762,
+          "duration" : 8217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "navigateToConstructor",
+        "uid" : "d6b249f20fcb45da",
+        "parentUid" : "3d889b44db6349affbf23df9d4d2e6b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941118764,
+          "stop" : 1688941126913,
+          "duration" : 8149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "navigateToConstructor2",
+        "uid" : "5d2412d42ad7d6aa",
+        "parentUid" : "3d889b44db6349affbf23df9d4d2e6b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941126917,
+          "stop" : 1688941133823,
+          "duration" : 6906
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3d889b44db6349affbf23df9d4d2e6b4"
+    }, {
+      "name" : "main",
+      "children" : [ {
+        "name" : "navigateToMyAccount",
+        "uid" : "60e9c2113227ff6a",
+        "parentUid" : "a07c53df4a7764b8d9ca2450a6d61568",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941133825,
+          "stop" : 1688941140951,
+          "duration" : 7126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "scrollTest",
+        "uid" : "21d3bac131324e6c",
+        "parentUid" : "a07c53df4a7764b8d9ca2450a6d61568",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941140954,
+          "stop" : 1688941147688,
+          "duration" : 6734
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a07c53df4a7764b8d9ca2450a6d61568"
+    }, {
+      "name" : "login",
+      "children" : [ {
+        "name" : "loginFromMainPage",
+        "uid" : "6a8d616cd0942846",
+        "parentUid" : "0b5987295b96ce85f0c995468b792ffe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941147691,
+          "stop" : 1688941153344,
+          "duration" : 5653
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginFromMyAccount",
+        "uid" : "5bc29e3968718d9d",
+        "parentUid" : "0b5987295b96ce85f0c995468b792ffe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941153346,
+          "stop" : 1688941161308,
+          "duration" : 7962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginFromRegisterPage",
+        "uid" : "43c3d2083066c5d8",
+        "parentUid" : "0b5987295b96ce85f0c995468b792ffe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941161310,
+          "stop" : 1688941165527,
+          "duration" : 4217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginFromRecoveryPassPage",
+        "uid" : "f46eb70c5c0f69c3",
+        "parentUid" : "0b5987295b96ce85f0c995468b792ffe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941165530,
+          "stop" : 1688941170533,
+          "duration" : 5003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0b5987295b96ce85f0c995468b792ffe"
+    } ],
+    "uid" : "ru.praktikum.burgers.pages"
+  } ],
+  "name" : "packages"
+}
