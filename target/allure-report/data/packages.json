@@ -1,0 +1,168 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "ru.praktikum.burgers.pages",
+    "children" : [ {
+      "name" : "register",
+      "children" : [ {
+        "name" : "userCanBeRegistered",
+        "uid" : "51d9e486eda6211b",
+        "parentUid" : "4cda233fe09785e6f74f8efdc950bf32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941093851,
+          "stop" : 1688941104280,
+          "duration" : 10429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "userCannotBeRegisteredWithShortPass",
+        "uid" : "c88442ab387362a",
+        "parentUid" : "4cda233fe09785e6f74f8efdc950bf32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941104381,
+          "stop" : 1688941110537,
+          "duration" : 6156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4cda233fe09785e6f74f8efdc950bf32"
+    }, {
+      "name" : "profile",
+      "children" : [ {
+        "name" : "logOut",
+        "uid" : "7e15894bca02ce35",
+        "parentUid" : "3d889b44db6349affbf23df9d4d2e6b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941110545,
+          "stop" : 1688941118762,
+          "duration" : 8217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "navigateToConstructor",
+        "uid" : "d6b249f20fcb45da",
+        "parentUid" : "3d889b44db6349affbf23df9d4d2e6b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941118764,
+          "stop" : 1688941126913,
+          "duration" : 8149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "navigateToConstructor2",
+        "uid" : "5d2412d42ad7d6aa",
+        "parentUid" : "3d889b44db6349affbf23df9d4d2e6b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941126917,
+          "stop" : 1688941133823,
+          "duration" : 6906
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3d889b44db6349affbf23df9d4d2e6b4"
+    }, {
+      "name" : "main",
+      "children" : [ {
+        "name" : "navigateToMyAccount",
+        "uid" : "60e9c2113227ff6a",
+        "parentUid" : "a07c53df4a7764b8d9ca2450a6d61568",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941133825,
+          "stop" : 1688941140951,
+          "duration" : 7126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "scrollTest",
+        "uid" : "21d3bac131324e6c",
+        "parentUid" : "a07c53df4a7764b8d9ca2450a6d61568",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941140954,
+          "stop" : 1688941147688,
+          "duration" : 6734
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a07c53df4a7764b8d9ca2450a6d61568"
+    }, {
+      "name" : "login",
+      "children" : [ {
+        "name" : "loginFromMainPage",
+        "uid" : "6a8d616cd0942846",
+        "parentUid" : "0b5987295b96ce85f0c995468b792ffe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941147691,
+          "stop" : 1688941153344,
+          "duration" : 5653
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginFromMyAccount",
+        "uid" : "5bc29e3968718d9d",
+        "parentUid" : "0b5987295b96ce85f0c995468b792ffe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941153346,
+          "stop" : 1688941161308,
+          "duration" : 7962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginFromRegisterPage",
+        "uid" : "43c3d2083066c5d8",
+        "parentUid" : "0b5987295b96ce85f0c995468b792ffe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941161310,
+          "stop" : 1688941165527,
+          "duration" : 4217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginFromRecoveryPassPage",
+        "uid" : "f46eb70c5c0f69c3",
+        "parentUid" : "0b5987295b96ce85f0c995468b792ffe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688941165530,
+          "stop" : 1688941170533,
+          "duration" : 5003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0b5987295b96ce85f0c995468b792ffe"
+    } ],
+    "uid" : "ru.praktikum.burgers.pages"
+  } ],
+  "name" : "packages"
+}

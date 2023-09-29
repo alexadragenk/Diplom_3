@@ -1,0 +1,59 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "6c50796c9f4f52ec531e48ae5c486193",
+    "name" : "ru.praktikum.burgers.pages.login.LoginPageTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "c6adcc6210bb0e0b0008c81e21461460",
+    "name" : "ru.praktikum.burgers.pages.profile.ProfilePageTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "6c8d833c99bef199bb1e07134413f0bc",
+    "name" : "ru.praktikum.burgers.pages.main.MainPageTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "0ca4c6dc57851949a3305b193e29dbd2",
+    "name" : "ru.praktikum.burgers.pages.register.RegisterPagePositiveTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a165c77fba5bf20dcdf05d8f291d897c",
+    "name" : "ru.praktikum.burgers.pages.register.RegisterPageNegativeTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

@@ -1,0 +1,183 @@
+{
+  "uid" : "43c3d2083066c5d8",
+  "name" : "Вход через кнопку в форме регистрации",
+  "fullName" : "ru.praktikum.burgers.pages.login.LoginPageTest.loginFromRegisterPage",
+  "historyId" : "43009adf7f047e74394c0a96162aea61",
+  "time" : {
+    "start" : 1688941161310,
+    "stop" : 1688941165527,
+    "duration" : 4217
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация данных пользователя",
+      "time" : {
+        "start" : 1688941161310,
+        "stop" : 1688941161310,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Регистрация пользователя",
+      "time" : {
+        "start" : 1688941161310,
+        "stop" : 1688941161521,
+        "duration" : 211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum.burgers.api.common.User@59632e3c"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание кнопки «Войти»",
+      "time" : {
+        "start" : 1688941164063,
+        "stop" : 1688941164106,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнение полей формы",
+      "time" : {
+        "start" : 1688941164106,
+        "stop" : 1688941164357,
+        "duration" : 251
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum.burgers.api.common.User@59632e3c"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание кнопки «Оформить заказ»",
+      "time" : {
+        "start" : 1688941164357,
+        "stop" : 1688941164914,
+        "duration" : 557
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизация пользователя",
+      "time" : {
+        "start" : 1688941165022,
+        "stop" : 1688941165213,
+        "duration" : 191
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "credentials",
+        "value" : "ru.praktikum.burgers.api.common.Credentials@248ad8a1"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1688941165230,
+        "stop" : 1688941165509,
+        "duration" : 279
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YWIzMjY5OWVkMjgwMDAxYjM0NTA0OCIsImlhdCI6MTY4ODk0MTE2NSwiZXhwIjoxNjg4OTQyMzY1fQ.VhikvtTFerSerDl2r113E1crErbtPZoJeBHRQZRzFbQ"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.praktikum.burgers.pages.login"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.praktikum.burgers.pages.login.LoginPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginFromRegisterPage"
+  }, {
+    "name" : "suite",
+    "value" : "ru.praktikum.burgers.pages.login.LoginPageTest"
+  }, {
+    "name" : "host",
+    "value" : "alexandra"
+  }, {
+    "name" : "thread",
+    "value" : "9676@alexandra.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43c3d2083066c5d8.json",
+  "parameterValues" : [ ]
+}
